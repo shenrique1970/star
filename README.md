@@ -2,8 +2,7 @@
 ## Tecnologias utilizadas: HTML, CSS, JAVASCRIPT...
 
 
-
-![tela1](https://github.com/shenrique1970/star/assets/79231553/3a2ce7c6-5821-495e-b613-4b951d95f1b7)
+![tela1](https://github.com/shenrique1970/star/assets/79231553/7c0806ef-3769-48d5-aebd-a56ef7ad121d)
 
 ![tela2](https://github.com/shenrique1970/star/assets/79231553/14d7737d-a7d3-4d4e-ac0a-e35e27db468e)
 
