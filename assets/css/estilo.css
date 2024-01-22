@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    /*border: 1px solid black;*/
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F0FFFF;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 8px;
+    margin: 8px;
+}
+
+.logo {
+    margin: 8px;
+}
+
+.coluna {
+    width: 50%;
+    flex-direction: row; 
+}
+
+button {
+    background-color: #017143;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 8px;
+}
+
+h2 {
+    font-size: 60px;
+    font-weight: 500;
+    margin: 8px;
+}
+
+span {
+    color: #017143;
+    font-size: 50px;
+    font-weight: 800;
+    margin: 8px;
+}
+
+div > p {
+    font-size: 16px;
+    margin: 8px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-left: 16px;
+    margin: 8px;
+}
+
+.menu img {
+    width: 70px;
+    margin: 16px;
+}
+
+.copo-pequeno {
+    width: 60px;
+    margin: 16px;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.copo-pequeno:hover {
+    transform: translateY(-25px);
+}
+
+.colunb {
+    width: 50%;
+    flex-direction: row;
+    z-index: 2;
+}
+
+.circulo {
+    background: #017143;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+    z-index: 1;
+}
+
+.copo-grande {
+    width: 550px;
+    padding-top: 120px;
+    padding-left: 170px;
+}
+
+.copo-grande img {
+    width: 250px; 
+    margin: 64px;
+}
+
+@media only screen
+and (min-device-width: 360px) and (max-device-width: 932px) {
+
+    body {
+        min-width: 375px;
+        background-color: #F0FFFF;
+    }
+
+    html {
+        height: 100%;
+    }
+
+    .logo {
+        height: 90px;
+        
+    }
+
+    .logo img {
+        height: 90px;
+    }
+
+    .coluna {
+        width: 100%;
+        height: 100%;
+        flex-direction: row; 
+        z-index: 1;
+    }
+
+    .conteudo {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin: 8px;
+    }
+
+    h2 {
+        width: 100%;
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    span {
+        color: #017143;
+        font-size: 45px;
+        font-weight: 800;
+        margin: 8px;
+    }
+
+    .menu img {
+        width: 50px;
+        margin: 16px;
+    }
+
+    div > .menu {
+        width: 406px;  
+        flex-direction: row;
+        margin: 8px;
+    }
+
+    .colunb {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .circulo {
+        background: #017143;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        clip-path: circle(50% at 89% 93%);
+        z-index: 1;
+    }
+    
+    .copo-grande {
+        width: 550px;
+        padding-top: 50px;
+        padding-left: 110px;
+    }
+    
+    .copo-grande img {
+        width: 150px; 
+        margin: 56px;
+    }
+
+
+}
+
+/*
+@media (min-width: 240px) {
+    .conteudo{width: auto}
+  } */
+/*
+  @media (min-width: 270px) {
+    .conteudo{width: auto}
+  } */
+/*
+  @media (min-width: 480px) {
+    .conteudo{width: auto}
+  } */
+/*
+  @media (min-width: 768px) {
+    .conteudo{width: auto}
+  } */
