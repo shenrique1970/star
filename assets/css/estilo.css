@@ -1,12 +1,20 @@
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     /*border: 1px solid black;*/
 }
 
 body {
-    margin: 0;
-    padding: 0;
     background-color: #F0FFFF;
+}
+
+.logo {
+    margin: 8px;
+}
+
+.logo img {
+    width: 90px;
 }
 
 .conteudo {
@@ -14,10 +22,6 @@ body {
     flex-direction: row;
     width: 100%;
     padding: 8px;
-    margin: 8px;
-}
-
-.logo {
     margin: 8px;
 }
 
@@ -117,7 +121,7 @@ and (min-device-width: 360px) and (max-device-width: 932px) {
     }
 
     .logo {
-        height: 90px;
+        height: 70px;
         
     }
 

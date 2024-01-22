@@ -1,10 +1,10 @@
 let circulo = document.querySelector(".circulo")
 let imgCopo = document.querySelector(".copo-grande>img")
 let verde = document.querySelector(".verde")
-let amarelo = document.querySelector(".amarelo")
+let magenta = document.querySelector(".magenta")
 let rosa = document.querySelector(".rosa")
 
-amarelo.addEventListener("click", () => {
+magenta.addEventListener("click", () => {
     imgCopo.src = "assets/img/img2.png"
     circulo.style.background = "#eb7495"
 })
