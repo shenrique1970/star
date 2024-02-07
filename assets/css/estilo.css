@@ -5,6 +5,10 @@
     border: 1px solid black;
 }
 
+::-webkit-scrollbar {
+    display: none;
+}
+
 .topo {
     display: flex;
     flex-direction: row;
