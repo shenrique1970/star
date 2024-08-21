@@ -4,6 +4,11 @@
     box-sizing: border-box;
     border: 1px solid black;
 }
+/* site fora desses numeros quebra*/
+html { 
+    min-width: 320px; 
+    max-width: 1400px; 
+}
 
 ::-webkit-scrollbar {
     display: none;
