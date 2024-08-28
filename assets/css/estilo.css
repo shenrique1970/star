@@ -19,7 +19,7 @@ html {
     display: flex;
     flex-direction: row;
     width: 100%;
-    && .logo {
+    & .logo {
         width: 10%;
         margin: 8px;
     }
@@ -31,12 +31,12 @@ html {
     flex-direction: row;
     font-size: 30px;
     text-align: center;
-    && .flex-item-left {
+    & .flex-item-left {
         flex-direction: column;
         padding: 8px;
         flex: 50%;
     }
-    && .flex-item-right {
+    & .flex-item-right {
         flex-direction: column;
         padding: 8px;
         flex: 50%;
@@ -46,22 +46,22 @@ html {
 
 .flex-item-left {
     font-size: 1em;
-    && h2 {
+    & h2 {
         font-size: 30px;
         font-weight: 500;
     }
-    && span {
+    & span {
         color: #017143;
         font-size: 1em;
         font-weight: 800;
         margin: 8px;
     }
-    && div>p {
+    & div>p {
         width: 100%;
         font-size: 50%;
         font-weight: 600;
     }
-    && .botao {
+    & .botao {
         background-color: #017143;
         color: #ffffff;
         border: none;
@@ -70,36 +70,36 @@ html {
         margin: 8px;
         cursor: pointer;
     }
-    && .menu {
+    & .menu {
         display: flex;
         justify-content: right;
         margin-left: 16px;
         margin: 8px;
     }
-    && .menu img {
+    & .menu img {
         width: 70px;
         margin: 16px;
     }
     
-    && .copo-pequeno {
+    & .copo-pequeno {
         width: 60px;
         margin: 16px;
         cursor: pointer;
         transition: 1s;
     }
     
-    && .copo-pequeno:hover {
+    & .copo-pequeno:hover {
         transform: translateY(-25px);
     }
 }
 
 .flex-item-right {
-    && .copo-grande {
+    & .copo-grande {
         padding-top: 120px;
         padding-left: 170px;
     }
     
-    && .copo-grande img {
+    & .copo-grande img {
         width: 260px;
     }
     
