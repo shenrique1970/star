@@ -1,5 +1,5 @@
-# Novo desafio de criar e dar responsividade.
-## Tecnologias utilizadas: HTML, CSS, JAVASCRIPT...
+- Novo desafio de criar e dar responsividade.
+- Tecnologias utilizadas: HTML, CSS, JAVASCRIPT...
 
 
 ![tela1](https://github.com/shenrique1970/star/assets/79231553/7c0806ef-3769-48d5-aebd-a56ef7ad121d)
